@@ -1,0 +1,7 @@
+.vs/
+web.config
+web.Release.config
+web.Debug.config
+bin/
+packages/
+obj/

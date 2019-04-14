@@ -1,0 +1,33 @@
+﻿* { padding : 0; margin : 0; font-family : SeoulNamsan; }
+
+#header_wrap { width : 100%; height : 200px; background-color : rgb(146 , 207 , 191); }
+#body_wrap { width : 100%; height : 600px; background-color : rgb(246 , 242 , 207); }
+
+.upper_menu { width : 100%; height : 100px; background-color : rgb(217 , 214 , 207); text-align : right; }
+.main { position : relative; width : 90%; height : 600px; margin : 0 auto;}
+
+.upper_page_detail { width : 100%; height : 50px; margin-top : 20px; }
+#main_lblPageDetail { float : left; }
+#main_ddlPageNumPerPage { float : right; }
+#main_ddlDateOrder { float : right; }
+#main_ddlTitleOrder { float : right; }
+#main_ddlWriterOrder { float : right; }
+#main_boardList { text-align : center; float : right; }
+
+.board_overview { width : 100%; height : 200px; }
+#main_boardList { width : 100%; }
+
+.bottom_page_detail { position : relative; width : 100%; height : 50px; margin-top : 200px; }
+#main_ddlSearchOption { float : left; }
+#main_txtSearchOptionDetail { float : left; }
+#main_btnSearch { float : left; }
+#main_txtPw { float : right; }
+#main_btnWrite { float : right; }
+#main_btnDelete { float : right; }
+
+#board_write_content { margin-top : 20px; text-align : center; text-size-adjust : 0.8em;}
+
+ .boardInfo { background-color : rgb(230 , 138 , 123) ; color : white; line-height : 25px; margin-left : 5px; }
+ .board_write_content_row { margin-top : 5px; }
+
+ .Hide { display : none;}

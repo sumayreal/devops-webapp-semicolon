@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="MasterPage" Codebehind="Homepage.master.cs" %>
+
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>SEMICOLON</title>
+	<link type="text/css" rel="stylesheet" href="styleSheet.css" />
+</head>
+<body>
+    <script type='text/javascript' src='JavaScript.js' charset='utf-8'></script>	
+    <div id = "header_wrap">
+    </div>
+
+    <div id = "body_wrap">
+        <div class = "upper_menu">
+        </div>
+
+        <div class = "main">
+            <asp:ContentPlaceHolder id="main" runat="server"></asp:ContentPlaceHolder>
+        </div>
+    </div>
+</body>
+</html>
