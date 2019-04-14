@@ -51,7 +51,7 @@
                     </itemtemplate>
                 </asp:templatefield>
                 <asp:BoundField DataField = "board_id" HeaderStyle-CssClass="Hide" ItemStyle-CssClass="Hide"/> 
-                <asp:BoundField DataField = "board_title" HeaderText = "제목" 
+                <asp:BoundField DataField = "board_title" HeaderText = "title" 
                 SortExpression = "boardTitle"  />
                 <asp:BoundField DataField = "board_writer" HeaderText = "작성자명" 
                 SortExpression = "boardWriter" />   
