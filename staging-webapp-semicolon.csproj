@@ -115,7 +115,6 @@
     <Content Include="Board_Write.aspx" />
     <Content Include="Board_Write_Save.aspx" />
     <Content Include="JavaScript.js" />
-    <Compile Include="packages.config" />
     <Content Include="styleSheet.css" />
   </ItemGroup>
   <ItemGroup>
