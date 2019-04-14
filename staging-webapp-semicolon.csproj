@@ -123,7 +123,7 @@
   <ItemGroup>
     <None Include="App_Data\PublishProfiles\staging-semicolon.pubxml" />
     <Content Include="Homepage.master" />
-    <Content Include="web.config" />
+    <None Include="web.config" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
