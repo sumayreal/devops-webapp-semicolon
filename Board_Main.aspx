@@ -55,7 +55,7 @@
                 SortExpression = "boardTitle"  />
                 <asp:BoundField DataField = "board_writer" HeaderText = "writer" 
                 SortExpression = "boardWriter" />   
-                <asp:BoundField DataField = "board_date" HeaderText = "날짜" 
+                <asp:BoundField DataField = "board_date" HeaderText = "date" 
                 SortExpression = "boardDate" DataFormatString="{0:MM/dd/yyyy}"/>   
                 <asp:BoundField DataField = "board_pw" HeaderStyle-CssClass = "Hide" ItemStyle-CssClass = "Hide"/> 
 
