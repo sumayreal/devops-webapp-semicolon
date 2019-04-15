@@ -53,7 +53,7 @@
                 <asp:BoundField DataField = "board_id" HeaderStyle-CssClass="Hide" ItemStyle-CssClass="Hide"/> 
                 <asp:BoundField DataField = "board_title" HeaderText = "title" 
                 SortExpression = "boardTitle"  />
-                <asp:BoundField DataField = "board_writer" HeaderText = "작성자명" 
+                <asp:BoundField DataField = "board_writer" HeaderText = "writer" 
                 SortExpression = "boardWriter" />   
                 <asp:BoundField DataField = "board_date" HeaderText = "날짜" 
                 SortExpression = "boardDate" DataFormatString="{0:MM/dd/yyyy}"/>   
